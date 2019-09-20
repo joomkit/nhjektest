@@ -1,4 +1,10 @@
 ---
 label: test template
 hide_body: true
-fields: []
+fields:
+- name: title
+  type: text
+  config:
+    required: false
+  label: Title
+  description: page title
